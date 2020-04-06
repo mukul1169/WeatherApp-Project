@@ -1,0 +1,65 @@
+body{
+	background-image: url('https://perspektiva.ba/wp-content/uploads/2019/08/sunshine-weather-800x389.jpg');
+	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 1px black;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+#weather_container{
+	background-color: rgba(0,0,0,0.25);
+	box-shadow: 1px 1px 1px black;
+	padding: 15px;
+	border-radius: 10px;
+	position: absolute;
+    visibility: hidden;
+    align-content: center;
+
+}
+#weather_container h1{
+	margin: 5px;
+	font-size: 42px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans serif;
+}
+#search_container{
+	padding: 15px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#search_container input{
+	width: 200px;
+}
+#search_container button{
+	background-color: rgb(1,159,198);
+	width: 75px;
+}
+.search_control{
+	box-shadow: 2px 2px 5px black;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+#weather_main{
+	display: block;
+    margin-bottom: 20px;
+
+}
+#weather_main div{
+	display: inline-block;
+}
+#weather_description_header{
+	font-size: 20px;
+	vertical-align: 50%;
+}
+#temperature{
+	font-size: 38px;
+	vertical-align: 25%;
+}
+.bottom_details{
+	display: block;
+	font-size: 24px;
+	text-align: right;
+}
+hr{
+	margin-bottom: 20px;
+}
