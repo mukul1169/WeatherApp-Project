@@ -24,21 +24,23 @@ function init(result)
 	switch(result.weather[0].main)
 	{
        case 'Clear':
-            document.body.style.backgroundImage=`url("clear.jpg")`;
+            document.body.style.backgroundImage=`url("https://openweathermap.org/themes/openweathermap/assets/img/shutterstock_753167914_1.jpg")`;
             break;
        case 'Clouds':
-            document.body.style.backgroundImage=`url("cloudy.jpg")`; 
+            document.body.style.backgroundImage=`url("https://i.gifer.com/srG.gif")`; 
             break;
        case 'Rain': 
+	    document.body.style.backgroundImage=`url("https://33.media.tumblr.com/7a73856ab9301e8e4f27137dcb349219/tumblr_n63plyhz5t1qk9powo1_500.gif")`; 
+            break;
        case 'Drizzle':
        case 'Mist':
             document.body.style.backgroundImage=`url("Rainy.jpg")`; 
             break;
        case 'Thunderstorm': 
-            document.body.style.backgroundImage=`url("Thunderstorm.jpg")`;
+            document.body.style.backgroundImage=`url("https://media1.tenor.com/images/f9fafb2c30fa57595bf17fd89cf6ae99/tenor.gif?itemid=15027660")`;
             break;
        case 'Snow': 
-            document.body.style=`url("snow.jpg")`;
+            document.body.style=`url("https://66.media.tumblr.com/tumblr_m92lu1fvYU1rt04f0o1_400.gifv")`;
             break;
        default: 
             document.body.style.backgroundImage=`url("default.jpg")`;
